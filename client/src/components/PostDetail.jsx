@@ -13,22 +13,22 @@ const post = posts[id];
 if (!post) {
 return (
 <div style={{ padding: '20px' }}>
-<h1>Artículo no encontrado</h1>
-<Link to="/posts">Volver a los artículos</Link>
+    <h1>Artículo no encontrado</h1>
+    <Link to="/posts">Volver a los artículos</Link>
 </div>
 );
 }
 return (
-<div style={{ padding: '20px' }}>
-<Link to="/posts" style={{ marginBottom: '20px', display: 'block' }}>
-← Volver a los artículos
-</Link>
-<h1>{post.title}</h1>
-<p><strong>Autor:</strong> {post.author}</p>
-<div style={{ marginTop: '20px' }}>
-<p>{post.content}</p>
-</div>
-</div>
+    <div style={{ padding: '20px' }}>
+        <Link to="/posts" style={{ marginBottom: '20px', display: 'block' }}>
+            ← Volver a los artículos
+        </Link>
+        <h1>{post.title}</h1>
+        <p><strong>Autor:</strong> {post.author}</p>
+        <div style={{ marginTop: '20px' }}>
+            <p>{post.content}</p>
+        </div>
+    </div>
 );
 };
 export default PostDetail;
