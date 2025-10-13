@@ -1,9 +1,9 @@
 // App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
-import Posts from './components/Posts';
-import NewPost from './components/NewPost';
+import Home from './pages/Home';
+import Posts from './pages/Posts';
+import NewPost from './pages/NewPost';
 import PostDetail from './components/PostDetail';
 function App() {
 return (
