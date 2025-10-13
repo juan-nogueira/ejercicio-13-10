@@ -6,7 +6,7 @@ import Posts from './pages/Posts';
 import NewPost from './pages/NewPost';
 import PostDetail from './components/PostDetail';
 function App() {
-return (
+    return (
         <div className="app">
             <nav style={{ padding: '20px', borderBottom: '1px solid #ccc' }}>
                 <Link to="/" style={{ marginRight: '15px' }}>Inicio</Link>
