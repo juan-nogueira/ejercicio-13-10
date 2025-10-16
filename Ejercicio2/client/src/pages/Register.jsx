@@ -14,7 +14,6 @@ const Register = () => {
   return (
     <div style={{ padding: '20px', maxWidth: '600px', margin: '0 auto' }}>
       <h1>Registro de Usuario</h1>
-      {/* Step Indicator */}
       <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '30px' }}>
         {steps.map((step, index) => (
           <div key={step.path} style={{ textAlign: 'center', flex: 1 }}>
@@ -35,7 +34,6 @@ const Register = () => {
           </div>
         ))}
       </div>
-      {/* Current Form Step */}
       <Outlet />
     </div>
   );

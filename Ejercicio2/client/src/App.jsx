@@ -10,11 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app">
-       <nav style={{ padding: '20px', borderBottom: '1px solid #ccc' }}>
-  <Link to="/" style={{ marginRight: '15px' }}>Inicio</Link>
-  {/* This link should point to the first step */}
-  <Link to="/register/personal">Registrarse</Link>
-</nav>
+        <nav style={{ padding: '20px', borderBottom: '1px solid #ccc' }}>
+          <Link to="/" style={{ marginRight: '15px' }}>Inicio</Link>
+          <Link to="/register/personal">Registrarse</Link>
+        </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />}>
